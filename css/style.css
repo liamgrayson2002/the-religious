@@ -1,0 +1,80 @@
+* { margin: 0; padding: 0;}
+
+body {  
+	background: #000 url(images/background.gif) repeat-x;
+}
+
+.cl { clear: both; height: 0; line-height: 0; font-size: 0; text-indent: -4000px; }
+.shell { width: 953px; margin: 0 auto; }
+h1 a,h2,h3,h4 { font-family: Georgia, Times, serif; color: #ffc500; }
+h2 { font-size: 20px; }
+
+#header { height: 83px; padding-top: 45px;  }
+#navigation { float: right; display: inline; width: 750px; }
+#navigation ul { list-style: none}
+#navigation li { float: left; display: inline; margin-right: 10px; }
+#navigation li.last { margin: 0; }
+
+#navigation li a, 
+#navigation li a span { 
+	float: left; 
+	display: inline; 
+	height: 31px; 
+	padding-left: 13px; 
+	text-decoration: none;
+	font: 16px andalus;
+	color: #fff;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+#navigation li a span em { 
+	font-style: normal; 
+	display: inline-block; 
+	height: 31px;
+	background-position: center bottom; 
+	background-repeat: no-repeat; 
+}
+
+#navigation li a span { padding-left: 0; padding-right: 13px; background-position: right 0; }
+
+#navigation li a:hover,
+#navigation li a.active,
+#navigation li a:hover span,
+#navigation li a.active span { background-image: url(images/navigation.gif); color: #ffc500; }
+
+#navigation li a:hover span em, #navigation li a.active span em { background-image: url(images/nav-pointer.gif); }
+#footer {color: #fff; font-family:andalus; font-size: 16px; text-align:center; }
+.img
+{
+border-radius:30px 0px 30px 0px;
+border:#FF0 solid 3px;}
+#header1 {
+	position:absolute;
+	left:363px;
+	top:2px;
+	width:422px;
+	height:69px;
+}
+.readmore a 
+{font-family:andalus;
+font-size:18px;
+color:#fff;
+}
+
+.readmore a:hover {
+    color: #ffc500;
+}
+#logo1{
+	position:absolute;
+	left:125px;
+	top:-4px;
+	width:132px;
+	height:114px;
+	
+}
+.text
+{font-family:andalus;
+font-size: 16px;
+color:#FFF;
+text-align:justify;}
